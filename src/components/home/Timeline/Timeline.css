@@ -22,10 +22,10 @@ header {
 }
 
 .timeline-container {
-  margin-top: 10px; /* Space from navbar */
+  margin-top: 10px;
   display: flex;
   justify-content: center;
-  gap: 30px; /* Space between the lines */
+  gap: 30px;
   padding: 20px;
   position: relative;
 }
@@ -51,11 +51,12 @@ header {
   transition: background-color 0.5s ease-out, transform 0.3s ease-in-out;
 }
 
-/* Smooth fade-in effect for containers */
+/* Containers (Fixed Size for Laptops) */
 .container {
   position: absolute;
-  width: 400px;
-  height: 140px;
+  width: 400px; /* Fixed width for laptops */
+  height: 140px; /* Fixed height for laptops */
+  padding: 15px;
   background: rgba(255, 0, 0, 0.8); /* Red container */
   border-radius: 10px;
   opacity: 0;
@@ -64,17 +65,82 @@ header {
   transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 
-/* Increased spacing between the point and container */
-.point:nth-child(4n) + .container {
-  left: 100px; /* Move further right */
+.date-container {
+  position: absolute;
+  width: 400px; /* Fixed width for laptops */
+  height: 150px; /* Fixed height for laptops */
+  padding: 15px;
+  background: rgba(255, 0, 0, 0.8); /* Red container */
+  border-radius: 10px;
+  opacity: 0;
+  margin-right: 100px;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 
-.point:nth-child(4n-2) + .container {
-  right: 100px; /* Move further left */
-}
-
-/* When a point turns red, container fades in */
+/* Fade-in effect when the point turns red */
 .point[style*="background-color: red"] + .container {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* 🔻 Responsive Adjustments for Smaller Screens */
+@media (max-width: 1024px) {
+  .container {
+    width: 300px; /* Reduce width for tablets */
+    height: 120px;
+  }
+
+  .point:nth-child(4n) + .container {
+    left: 80px;
+  }
+
+  .point:nth-child(4n-2) + .container {
+    right: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 250px; /* Smaller width for mobile */
+    height: 100px;
+  }
+
+  .point:nth-child(4n) + .container,
+  .point:nth-child(4n-2) + .container {
+    left: auto;
+    right: auto;
+    transform: translateX(-50%);
+  }
+}
+/* 🔻 Responsive Adjustments for Smaller Screens */
+@media (max-width: 1024px) {
+  .container {
+    width: 250px; /* Reduce width for tablets */
+    height: 120px;
+    margin-left: 50px; /* Adjusted margin for tablets */
+  }
+
+  .point:nth-child(4n) + .container {
+    left: 80px;
+  }
+
+  .point:nth-child(4n-2) + .container {
+    right: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 250px; /* Smaller width for mobile */
+    height: 100px;
+    margin-left: 20px; /* Adjusted margin for mobile */
+  }
+
+  .point:nth-child(4n) + .container,
+  .point:nth-child(4n-2) + .container {
+    left: auto;
+    right: auto;
+    transform: translateX(-50%);
+  }
 }
