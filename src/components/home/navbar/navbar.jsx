@@ -22,14 +22,14 @@ function Navbar() {
         referrerPolicy="no-referrer"
       />
 
-      <title>Anantya</title>
+      <title>Anantya'25</title>
       <header>
 
 
         <div className="navbar">
           <div className="logo">
             <a href="#">
-              <span className="multiverse-text">Anantya</span>
+              <span className="multiverse-text">Anantya'25</span>
               {/* <span className="branches"> */}
               {/* <span className="branch"></span>
                 <span className="branch"></span>
