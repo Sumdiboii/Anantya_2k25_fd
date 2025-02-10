@@ -32,7 +32,7 @@ header {
 .line {
   position: relative;
   width: 7px;
-  height: 1400px;
+  height: 2000px;
   background: white; /* Initially white */
   border-radius: 5px;
   transition: background 0.5s ease-out;
@@ -51,12 +51,12 @@ header {
 }
 
 /* Points turn red progressively */
-.line .point:nth-child(1) { top: 7%; }
-.line .point:nth-child(2) { top: 17%; }
-.line .point:nth-child(3) { top: 27%; }
-.line .point:nth-child(4) { top: 37%; }
-.line .point:nth-child(5) { top: 47%; }
-.line .point:nth-child(6) { top: 57%; }
-.line .point:nth-child(7) { top: 67%; }
-.line .point:nth-child(8) { top: 77%; }
-.line .point:nth-child(9) { top: 87%; }
+.line .point:nth-child(1) { top: 11%; }
+.line .point:nth-child(2) { top: 22%; }
+.line .point:nth-child(3) { top: 33%; }
+.line .point:nth-child(4) { top: 44%; }
+.line .point:nth-child(5) { top: 55%; }
+.line .point:nth-child(6) { top: 66%; }
+.line .point:nth-child(7) { top: 77%; }
+.line .point:nth-child(8) { top: 88%; }
+.line .point:nth-child(9) { top: 99%; }
