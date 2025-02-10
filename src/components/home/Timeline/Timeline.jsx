@@ -1,49 +1,40 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./Timeline.css";
 
 const Timeline = () => {
+  const [scrollProgress, setScrollProgress] = useState(0);
+
   useEffect(() => {
-    const lines = document.querySelectorAll(".line");
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const progress = Math.min(scrollTop / docHeight, 1); // Normalize between 0 and 1
+      setScrollProgress(progress);
+    };
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("active");
-          } else {
-            entry.target.classList.remove("active");
-          }
-        });
-      },
-      { threshold: 0.2 }
-    );
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Initial call
 
-    lines.forEach((line) => observer.observe(line));
-
-    return () => observer.disconnect();
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
     <div className="timeline-container">
-      <div className="line">
-        
+      <div className="line" style={{ background: `linear-gradient(to bottom, red ${scrollProgress * 100}%, white 0%)` }}></div>
+
+      <div className="line" style={{ background: `linear-gradient(to bottom, red ${scrollProgress * 100}%, white 0%)` }}>
+        <div className="point" style={{ top: "7%", backgroundColor: scrollProgress >= 0.07 ? "red" : "white" }}></div>
+        <div className="point" style={{ top: "17%", backgroundColor: scrollProgress >= 0.17 ? "red" : "white" }}></div>
+        <div className="point" style={{ top: "27%", backgroundColor: scrollProgress >= 0.27 ? "red" : "white" }}></div>
+        <div className="point" style={{ top: "37%", backgroundColor: scrollProgress >= 0.37 ? "red" : "white" }}></div>
+        <div className="point" style={{ top: "47%", backgroundColor: scrollProgress >= 0.47 ? "red" : "white" }}></div>
+        <div className="point" style={{ top: "57%", backgroundColor: scrollProgress >= 0.57 ? "red" : "white" }}></div>
+        <div className="point" style={{ top: "67%", backgroundColor: scrollProgress >= 0.67 ? "red" : "white" }}></div>
+        <div className="point" style={{ top: "77%", backgroundColor: scrollProgress >= 0.77 ? "red" : "white" }}></div>
+        <div className="point" style={{ top: "87%", backgroundColor: scrollProgress >= 0.87 ? "red" : "white" }}></div>
       </div>
 
-      <div className="line">
-      <div className="point" style={{ top: "7%" }}></div>
-        <div className="point" style={{ top: "17%" }}></div>
-        <div className="point" style={{ top: "27%" }}></div>
-        <div className="point" style={{ top: "37%" }}></div>
-        <div className="point" style={{ top: "47%" }}></div>
-        <div className="point" style={{ top: "57%" }}></div>
-        <div className="point" style={{ top: "67%" }}></div>
-        <div className="point" style={{ top: "77%" }}></div>
-        <div className="point" style={{ top: "87%" }}></div>
-      </div>
-
-      <div className="line">
-        
-      </div>
+      <div className="line" style={{ background: `linear-gradient(to bottom, red ${scrollProgress * 100}%, white 0%)` }}></div>
     </div>
   );
 };
