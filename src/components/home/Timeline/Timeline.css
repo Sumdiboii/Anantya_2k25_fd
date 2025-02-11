@@ -73,6 +73,10 @@ header {
     inset 2px 2px 5px rgba(255, 255, 255, 0.1); /* Inner light for depth */
   border-radius: 15px;
   border: 3px solid #990000; /* Dark red border */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the left */
 }
 
 /* Ensure the date text doesn't have a background */
@@ -93,14 +97,31 @@ header {
 
 /* Click Wobble Effect */
 .container:active {
-  animation: wobble 0.4s ease-in-out;
-}
-
-
-/* Apply wobble effect on click */
-.container:active {
   animation: wobble 0.6s ease-in-out;
 }
+
+
+/* Poster Section */
+.poster-box {
+  width: 30%; /* Adjust dynamically based on the container size */
+  max-width: 150px; /* Ensures it doesn't grow too large */
+  height: auto;
+  display: flex;
+  justify-content: flex-start; /* Aligns to the extreme left */
+  align-items: center;
+  margin-left: 3px; /* Adds a small gap from the container wall */
+}
+
+/* Image Settings */
+.poster-box img {
+  width: 100%; /* Takes the full width of poster-box */
+  height: auto; /* Maintains aspect ratio */
+  max-height: 100%; /* Ensures it doesn't overflow */
+  object-fit: contain; /* Prevents cropping */
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 
 
 .date-box {

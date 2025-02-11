@@ -25,7 +25,10 @@ const Timeline = () => {
       <div className="line" style={{ background: `linear-gradient(to bottom, red ${scrollProgress * 100}%, white 0%)` }}>
         
         <div className="point" style={{ top: "5%", backgroundColor: scrollProgress >= 0.07 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "2%" }}></div>
+        
+        <div className="container" style={{ top: "2%" }}>
+          <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
+        </div>
 
         <div className="date-box" style={{ top: "3%" }}>
         <p className="glitch" data-text="03 MARCH 2025">03 MARCH 2025</p>
@@ -34,7 +37,10 @@ const Timeline = () => {
         
 
         <div className="point" style={{ top: "16%", backgroundColor: scrollProgress >= 0.17 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "13%" }}></div>
+        
+        <div className="container" style={{ top: "13%" }}>
+        <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
+        </div>
 
         <div className="date-box" style={{ top: "14%" }}>
         <p className="glitch" data-text="04 MARCH 2025">04 MARCH 2025</p>
@@ -43,7 +49,11 @@ const Timeline = () => {
 
 
         <div className="point" style={{ top: "27%", backgroundColor: scrollProgress >= 0.27 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "24%" }}></div>
+        
+        <div className="container" style={{ top: "24%" }}>
+        <div className="poster-box">
+          <img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
+        </div>
 
         <div className="date-box" style={{ top: "25%" }}>
         <p className="glitch" data-text="03 MARCH 2025">05 MARCH 2025</p>
@@ -51,7 +61,9 @@ const Timeline = () => {
         </div>
 
         <div className="point" style={{ top: "39%", backgroundColor: scrollProgress >= 0.37 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "36%" }}></div>
+        <div className="container" style={{ top: "36%" }}>
+        <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
+        </div>
 
         <div className="date-box" style={{ top: "37%" }}>
         <p className="glitch" data-text="03 MARCH 2025">06 MARCH 2025</p>
@@ -59,7 +71,9 @@ const Timeline = () => {
         </div>
 
         <div className="point" style={{ top: "50%", backgroundColor: scrollProgress >= 0.47 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "47%" }}></div>
+        <div className="container" style={{ top: "47%" }}>
+        <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
+        </div>
 
         <div className="date-box" style={{ top: "48%" }}>
         <p className="glitch" data-text="03 MARCH 2025">07 MARCH 2025</p>
@@ -67,7 +81,9 @@ const Timeline = () => {
         </div>
 
         <div className="point" style={{ top: "61%", backgroundColor: scrollProgress >= 0.57 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "58%" }}></div>
+        <div className="container" style={{ top: "58%" }}>
+        <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
+        </div>
 
         <div className="date-box" style={{ top: "59%" }}>
         <p className="glitch" data-text="03 MARCH 2025">08 MARCH 2025</p>
@@ -75,7 +91,9 @@ const Timeline = () => {
         </div>
 
         <div className="point" style={{ top: "72%", backgroundColor: scrollProgress >= 0.67 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "69%" }}></div>
+        <div className="container" style={{ top: "69%" }}>
+        <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
+        </div>
 
         <div className="date-box" style={{ top: "70%" }}>
         <p className="glitch" data-text="03 MARCH 2025">09 MARCH 2025</p>
@@ -83,7 +101,9 @@ const Timeline = () => {
         </div>
 
         <div className="point" style={{ top: "84%", backgroundColor: scrollProgress >= 0.77 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "81%" }}></div>
+        <div className="container" style={{ top: "81%" }}>
+        <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
+        </div>
 
         <div className="date-box" style={{ top: "82%" }}>
         <p className="glitch" data-text="03 MARCH 2025">10 MARCH 2025</p>
@@ -91,7 +111,9 @@ const Timeline = () => {
         </div>
 
         <div className="point" style={{ top: "95%", backgroundColor: scrollProgress >= 0.87 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "92%" }}></div>
+        <div className="container" style={{ top: "92%" }}>
+        <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
+        </div>
 
         <div className="date-box" style={{ top: "93%" }}>
         <p className="glitch" data-text="03 MARCH 2025">11 MARCH 2025</p>
