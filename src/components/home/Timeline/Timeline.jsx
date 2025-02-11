@@ -28,6 +28,9 @@ const Timeline = () => {
         
         <div className="container" style={{ top: "2%" }}>
           <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
+          <div className="event-name-box">
+            <p className="glitch" data-text="Codigo by ACM">Codigo by ACM</p>
+          </div>
         </div>
 
         <div className="date-box" style={{ top: "3%" }}>
