@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "./Timeline.css";
+import ExploreButton from "./Explore-button/explore-button";
+
+
+
 
 const Timeline = () => {
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -31,6 +35,7 @@ const Timeline = () => {
           <div className="event-name-box">
           <p className="glitch" data-text="BEAST GAMES" style={{ fontSize: "27px", fontWeight: "bold" }}>BEAST GAMES</p>
           <p className="glitch" data-text="BY ISTE" style={{ fontSize: "14px" }}>BY ISTE</p>
+          <ExploreButton />
           </div>
         </div>
 
@@ -44,6 +49,11 @@ const Timeline = () => {
         
         <div className="container" style={{ top: "13%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
+        <div className="event-name-box">
+          <p className="glitch" data-text="BEAST GAMES" style={{ fontSize: "27px", fontWeight: "bold" }}>BEAST GAMES</p>
+          <p className="glitch" data-text="BY ISTE" style={{ fontSize: "14px" }}>BY ISTE</p>
+          <ExploreButton />
+          </div>
         </div>
 
         <div className="date-box" style={{ top: "14%" }}>
@@ -57,6 +67,11 @@ const Timeline = () => {
         <div className="container" style={{ top: "24%" }}>
         <div className="poster-box">
           <img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
+          <div className="event-name-box">
+          <p className="glitch" data-text="BEAST GAMES" style={{ fontSize: "27px", fontWeight: "bold" }}>BEAST GAMES</p>
+          <p className="glitch" data-text="BY ISTE" style={{ fontSize: "14px" }}>BY ISTE</p>
+          <ExploreButton />
+          </div>
         </div>
 
         <div className="date-box" style={{ top: "25%" }}>
@@ -67,6 +82,11 @@ const Timeline = () => {
         <div className="point" style={{ top: "39%", backgroundColor: scrollProgress >= 0.37 ? "red" : "white" }}></div>
         <div className="container" style={{ top: "36%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
+        <div className="event-name-box">
+          <p className="glitch" data-text="BEAST GAMES" style={{ fontSize: "27px", fontWeight: "bold" }}>BEAST GAMES</p>
+          <p className="glitch" data-text="BY ISTE" style={{ fontSize: "14px" }}>BY ISTE</p>
+          <ExploreButton />
+          </div>
         </div>
 
         <div className="date-box" style={{ top: "37%" }}>
@@ -77,6 +97,11 @@ const Timeline = () => {
         <div className="point" style={{ top: "50%", backgroundColor: scrollProgress >= 0.47 ? "red" : "white" }}></div>
         <div className="container" style={{ top: "47%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
+        <div className="event-name-box">
+          <p className="glitch" data-text="BEAST GAMES" style={{ fontSize: "27px", fontWeight: "bold" }}>BEAST GAMES</p>
+          <p className="glitch" data-text="BY ISTE" style={{ fontSize: "14px" }}>BY ISTE</p>
+          <ExploreButton />
+          </div>
         </div>
 
         <div className="date-box" style={{ top: "48%" }}>
@@ -87,6 +112,11 @@ const Timeline = () => {
         <div className="point" style={{ top: "61%", backgroundColor: scrollProgress >= 0.57 ? "red" : "white" }}></div>
         <div className="container" style={{ top: "58%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
+        <div className="event-name-box">
+          <p className="glitch" data-text="BEAST GAMES" style={{ fontSize: "27px", fontWeight: "bold" }}>BEAST GAMES</p>
+          <p className="glitch" data-text="BY ISTE" style={{ fontSize: "14px" }}>BY ISTE</p>
+          <ExploreButton />
+          </div>
         </div>
 
         <div className="date-box" style={{ top: "59%" }}>
@@ -97,6 +127,11 @@ const Timeline = () => {
         <div className="point" style={{ top: "72%", backgroundColor: scrollProgress >= 0.67 ? "red" : "white" }}></div>
         <div className="container" style={{ top: "69%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
+        <div className="event-name-box">
+          <p className="glitch" data-text="BEAST GAMES" style={{ fontSize: "27px", fontWeight: "bold" }}>BEAST GAMES</p>
+          <p className="glitch" data-text="BY ISTE" style={{ fontSize: "14px" }}>BY ISTE</p>
+          <ExploreButton />
+          </div>
         </div>
 
         <div className="date-box" style={{ top: "70%" }}>
@@ -107,6 +142,11 @@ const Timeline = () => {
         <div className="point" style={{ top: "84%", backgroundColor: scrollProgress >= 0.77 ? "red" : "white" }}></div>
         <div className="container" style={{ top: "81%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
+        <div className="event-name-box">
+          <p className="glitch" data-text="BEAST GAMES" style={{ fontSize: "27px", fontWeight: "bold" }}>BEAST GAMES</p>
+          <p className="glitch" data-text="BY ISTE" style={{ fontSize: "14px" }}>BY ISTE</p>
+          <ExploreButton />
+          </div>
         </div>
 
         <div className="date-box" style={{ top: "82%" }}>
@@ -117,6 +157,11 @@ const Timeline = () => {
         <div className="point" style={{ top: "95%", backgroundColor: scrollProgress >= 0.87 ? "red" : "white" }}></div>
         <div className="container" style={{ top: "92%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
+        <div className="event-name-box">
+          <p className="glitch" data-text="BEAST GAMES" style={{ fontSize: "27px", fontWeight: "bold" }}>BEAST GAMES</p>
+          <p className="glitch" data-text="BY ISTE" style={{ fontSize: "14px" }}>BY ISTE</p>
+          <ExploreButton />
+          </div>
         </div>
 
         <div className="date-box" style={{ top: "93%" }}>
