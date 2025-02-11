@@ -1,0 +1,38 @@
+.desc-box {
+    background-color: rgb(0, 0, 0);
+    width: 90%;  /* Keeps 5% margin on both sides */
+    margin: 5% auto; /* Centers it and adds top margin */
+    padding: 20px; /* Adds spacing inside */
+    position: relative;
+    height: 55vh;
+    background: linear-gradient(145deg, #1a1a1a, #000000); /* Dark gradient for SD effect */
+  box-shadow: 
+    5px 5px 15px rgba(255, 0, 0, 0.5), /* Red glow */
+    inset 2px 2px 5px rgba(255, 255, 255, 0.1); /* Inner light for depth */
+  border-radius: 15px;
+  border: 3px solid #990000; /* Dark red border */
+
+  
+   
+}
+
+/* Hover Effect - Slight Lift */
+.desc-box:hover {
+    transform: translateY(2px);
+    box-shadow: 
+      8px 8px 10px rgba(255, 0, 0, 0.7),
+      inset 3px 3px 6px rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Click Wobble Effect */
+  .desc-box:active {
+    animation: wobble 0.3s ease-in-out;
+  }
+
+  @keyframes wobble {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(2deg); }
+    50% { transform: rotate(-2deg); }
+    75% { transform: rotate(1deg); }
+    100% { transform: rotate(0deg); }
+  }
