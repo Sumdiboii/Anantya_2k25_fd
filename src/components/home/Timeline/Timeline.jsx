@@ -2,9 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./Timeline.css";
 import ExploreButton from "./Explore-button/explore-button";
 
-
-
-
 const Timeline = () => {
   const [scrollProgress, setScrollProgress] = useState(0);
 
@@ -35,7 +32,8 @@ const Timeline = () => {
           <div className="event-name-box">
           <p className="glitch" data-text="BEAST GAMES" style={{ fontSize: "27px", fontWeight: "bold" }}>BEAST GAMES</p>
           <p className="glitch" data-text="BY ISTE" style={{ fontSize: "14px" }}>BY ISTE</p>
-          <ExploreButton />
+          <div className="explore"><ExploreButton /></div>
+          
           </div>
         </div>
 
@@ -52,7 +50,7 @@ const Timeline = () => {
         <div className="event-name-box">
           <p className="glitch" data-text="BEAST GAMES" style={{ fontSize: "27px", fontWeight: "bold" }}>BEAST GAMES</p>
           <p className="glitch" data-text="BY ISTE" style={{ fontSize: "14px" }}>BY ISTE</p>
-          <ExploreButton />
+          <div className="explore"><ExploreButton /></div>
           </div>
         </div>
 
@@ -70,7 +68,7 @@ const Timeline = () => {
           <div className="event-name-box">
           <p className="glitch" data-text="BEAST GAMES" style={{ fontSize: "27px", fontWeight: "bold" }}>BEAST GAMES</p>
           <p className="glitch" data-text="BY ISTE" style={{ fontSize: "14px" }}>BY ISTE</p>
-          <ExploreButton />
+          <div className="explore"><ExploreButton /></div>
           </div>
         </div>
 
@@ -85,7 +83,7 @@ const Timeline = () => {
         <div className="event-name-box">
           <p className="glitch" data-text="BEAST GAMES" style={{ fontSize: "27px", fontWeight: "bold" }}>BEAST GAMES</p>
           <p className="glitch" data-text="BY ISTE" style={{ fontSize: "14px" }}>BY ISTE</p>
-          <ExploreButton />
+          <div className="explore"><ExploreButton /></div>
           </div>
         </div>
 
@@ -100,7 +98,7 @@ const Timeline = () => {
         <div className="event-name-box">
           <p className="glitch" data-text="BEAST GAMES" style={{ fontSize: "27px", fontWeight: "bold" }}>BEAST GAMES</p>
           <p className="glitch" data-text="BY ISTE" style={{ fontSize: "14px" }}>BY ISTE</p>
-          <ExploreButton />
+          <div className="explore"><ExploreButton /></div>
           </div>
         </div>
 
@@ -115,7 +113,7 @@ const Timeline = () => {
         <div className="event-name-box">
           <p className="glitch" data-text="BEAST GAMES" style={{ fontSize: "27px", fontWeight: "bold" }}>BEAST GAMES</p>
           <p className="glitch" data-text="BY ISTE" style={{ fontSize: "14px" }}>BY ISTE</p>
-          <ExploreButton />
+          <div className="explore"><ExploreButton /></div>
           </div>
         </div>
 
@@ -130,7 +128,7 @@ const Timeline = () => {
         <div className="event-name-box">
           <p className="glitch" data-text="BEAST GAMES" style={{ fontSize: "27px", fontWeight: "bold" }}>BEAST GAMES</p>
           <p className="glitch" data-text="BY ISTE" style={{ fontSize: "14px" }}>BY ISTE</p>
-          <ExploreButton />
+          <div className="explore"><ExploreButton /></div>
           </div>
         </div>
 
@@ -145,7 +143,7 @@ const Timeline = () => {
         <div className="event-name-box">
           <p className="glitch" data-text="BEAST GAMES" style={{ fontSize: "27px", fontWeight: "bold" }}>BEAST GAMES</p>
           <p className="glitch" data-text="BY ISTE" style={{ fontSize: "14px" }}>BY ISTE</p>
-          <ExploreButton />
+          <div className="explore"><ExploreButton /></div>
           </div>
         </div>
 
@@ -160,7 +158,7 @@ const Timeline = () => {
         <div className="event-name-box">
           <p className="glitch" data-text="BEAST GAMES" style={{ fontSize: "27px", fontWeight: "bold" }}>BEAST GAMES</p>
           <p className="glitch" data-text="BY ISTE" style={{ fontSize: "14px" }}>BY ISTE</p>
-          <ExploreButton />
+          <div className="explore"><ExploreButton /></div>
           </div>
         </div>
 

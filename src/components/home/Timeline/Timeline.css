@@ -133,6 +133,7 @@ header {
 
 /* Event Name Box */
 .event-name-box {
+ 
   display: flex;
   flex-direction: column; /* Stacks text vertically */
   align-items: center; /* Centers text horizontally */
@@ -149,7 +150,7 @@ header {
 
 /* Text inside event name box */
 .event-name-box p {
-  
+  background: transparent !important;
   font-size: 20px;
   color: #fff; /* Ensures text is white and visible */
   font-weight: bold;
@@ -157,6 +158,9 @@ header {
   text-align: center;
 }
 
+.explore {
+  background: transparent !important;
+}
 
 
 .date-box {
