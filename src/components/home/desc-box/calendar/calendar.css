@@ -1,105 +1,127 @@
-
 body {
-  background: #ccc;
-  font: 87.5%/1.5em "Lato", sans-serif;
-  margin: 0;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background: #000000; /* Match your black theme */
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+
+  td {
+    padding: 0;
+  }
+  
+  .calendar-container {
+    position: relative;
+    max-width: 27%; /* Adjust to fit properly */
+    
+    background: linear-gradient(145deg, #8f0f0f, #920d0d); /* Dark gradient for SD effect */
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .calendar-container header {
+    max-width: 100%;
+    border-radius: 1em 1em 0 0;
+    background: #ff0000;
+    color: #fff;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .month {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+    background-color: transparent;
+  }
+  
+  
+  .calendar {
+    background: #fff;
+    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .calendar thead {
+    color: #ff0000;
+    font-weight: bold;
+    
+    
+  }
+  
+  .calendar td {
+    
+    padding: 12px;
+    text-align: center;
+    font-size: 13px;
+  }
+  
+  .calendar tbody td:hover {
+    background: #ff0000;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .current-day {
+    background: #ff0000;
+    color: white;
+    font-weight: bold;
+    
+  }
+  
+  .prev-month {
+    color: #747474;
+    
+  }
+/* 📌 RESPONSIVE MEDIA QUERIES */
+@media (max-width: 600px) {
+    .calendar-container {
+        width: 95%;
+        max-width: 350px;
+    }
+
+    .calendar td {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .calendar-container header {
+        font-size: 16px;
+        padding: 10px;
+    }
 }
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
+@media (max-width: 400px) {
+    .calendar-container {
+        width: 100%;
+        max-width: 320px;
+    }
 
-td {
-  padding: 0;
-}
+    .calendar td {
+        padding: 6px;
+        font-size: 11px;
+    }
 
-.calendar-container {
-  position: relative;
-  width: 450px;
+    .calendar-container header {
+        font-size: 14px;
+        padding: 8px;
+    }
 }
-
-.calendar-container header {
-  border-radius: 1em 1em 0 0;
-  background: #e66b6b;
-  color: #fff;
-  padding: 3em 2em;
-}
-
-.day {
-  font-size: 8em;
-  font-weight: 900;
-  line-height: 1em;
-}
-
-.month {
-  font-size: 4em;
-  line-height: 1em;
-  text-transform: lowercase;
-}
-
-.calendar {
-  background: #fff;
-  border-radius: 0 0 1em 1em;
-  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), 0 3px 1px #fff;
-  color: #555;
-  display: inline-block;
-  padding: 2em;
-}
-
-.calendar thead {
-  color: #e66b6b;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.calendar td {
-  padding: 0.5em 1em;
-  text-align: center;
-}
-
-.calendar tbody td:hover {
-  background: #cacaca;
-  color: #fff;
-}
-
-.current-day {
-  color: #e66b6b;
-}
-
-.prev-month,
-.next-month {
-  color: #cacaca;
-}
-
-.ring-left,
-.ring-right {
-  position: absolute;
-  top: 230px;
-}
-
-.ring-left {
-  left: 2em;
-}
-
-.ring-right {
-  right: 2em;
-}
-
-.ring-left:before,
-.ring-left:after,
-.ring-right:before,
-.ring-right:after {
-  background: #fff;
-  border-radius: 4px;
-  box-shadow: 0 3px 1px rgba(0, 0, 0, 0.3), 0 -1px 1px rgba(0, 0, 0, 0.2);
-  content: "";
-  display: inline-block;
-  margin: 8px;
-  height: 32px;
-  width: 8px;
-}
+  
+  

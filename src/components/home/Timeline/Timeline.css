@@ -150,7 +150,7 @@ header {
 .event-name-box p {
   background: transparent !important;
   font-size: 20px;
-  padding: 5px;
+  padding: 3px;
   color: #fff; /* Ensures text is white and visible */
   font-weight: bold;
   text-transform: uppercase;
