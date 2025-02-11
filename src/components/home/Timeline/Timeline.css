@@ -128,6 +128,10 @@ header {
 
 /* Event Name Box */
 .event-name-box {
+  display: flex;
+  flex-direction: column; /* Stacks text vertically */
+  align-items: center; /* Centers text horizontally */
+  text-align: center; /* Ensures text is centered */
   flex: 1; /* Takes up remaining space */
   display: flex;
   align-items: center;
@@ -135,6 +139,7 @@ header {
   padding: 10px; /* Ensures text is not too close to edges */
   background: transparent !important;
   border-radius: 10px;
+  align-self: flex-start; /* Aligns text to the top */
 }
 
 /* Text inside event name box */
