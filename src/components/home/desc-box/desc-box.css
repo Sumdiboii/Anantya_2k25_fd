@@ -20,7 +20,7 @@
 /* Styling for the description box next to the calendar */
 .desc-box-info {
     width: 70%; /* Takes remaining space */
-    background: linear-gradient(145deg, #4a0404, #8a0000);
+    background: linear-gradient(145deg, #8e1717, #be0000);
     padding: 20px;
     border-radius: 15px;
     color: white;

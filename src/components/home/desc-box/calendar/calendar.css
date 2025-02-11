@@ -23,7 +23,7 @@ body {
     position: relative;
     max-width: 27%; /* Adjust to fit properly */
     
-    background: linear-gradient(145deg, #8f0f0f, #920d0d); /* Dark gradient for SD effect */
+    background: linear-gradient(145deg, #d20808, #c10e0e); /* Dark gradient for SD effect */
     border-radius: 15px;
     text-align: center;
   }
@@ -31,7 +31,7 @@ body {
   .calendar-container header {
     max-width: 100%;
     border-radius: 1em 1em 0 0;
-    background: #ff0000;
+    background: #9a1111;
     color: #fff;
     padding: 8px;
     display: flex;
@@ -79,7 +79,7 @@ body {
   }
   
   .current-day {
-    background: #ff0000;
+    background: #b70b0b;
     color: white;
     font-weight: bold;
     
