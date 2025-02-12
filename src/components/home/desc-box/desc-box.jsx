@@ -7,7 +7,23 @@ const DescBox = () => {
     <Calendar />
 
     <div className="desc-box-info">
-    <p className="glitch" data-text="Mark your calendars! 🚀 Anantya 25 is on the horizon – a tech fest packed with thrilling competitions and epic rewards! Don’t miss out on the action!">Mark your calendars! 🚀 Anantya 25 is on the horizon – a tech fest packed with thrilling competitions and epic rewards! Don’t miss out on the action!</p>
+      <div className="sub-desc-box-info">
+    <p 
+  className="glitch" 
+  data-text="Mark your calendars!" 
+  style={{ fontSize: "50px", fontWeight: "bold", textAlign: "left", marginBottom: "20px", background: "transparent", margin: "20px"}}
+>
+  Mark your calendars!
+</p>
+
+<p 
+  className="glitch" 
+  data-text="event desc" 
+  style={{ fontSize: "16px", textAlign: "left", background: "transparent", margin: "20px" }}
+>
+  event desc
+</p>
+</div>
     </div>
   </div>;
 

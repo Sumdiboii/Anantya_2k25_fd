@@ -1,7 +1,7 @@
 /* From Uiverse.io by Navarog21 */
 .explore-button {
     
-    color: #ffffff; /* White text */
+    color: #ffffff !important; /* White text */
     background: transparent !important;
     margin-top: 24px; 
     position: relative;
