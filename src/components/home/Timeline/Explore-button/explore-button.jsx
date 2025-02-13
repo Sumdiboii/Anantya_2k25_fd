@@ -5,7 +5,7 @@ const ExploreButton = () => {
   return (
     <a href="#" className="explore-button-link">
       <button className="explore-button">
-        <p>EXPLORE</p>
+      <p className="glitch" data-text="EXPLORE">EXPLORE</p>
         <div className="clip">
           <div className="corner leftTop"></div>
           <div className="corner rightBottom"></div>

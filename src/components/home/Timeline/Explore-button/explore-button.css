@@ -17,6 +17,12 @@
     cursor: pointer;
   }
   
+  .explore-button p {
+    position: relative;
+    z-index: 2;
+    font-size: 14px;
+  }
+  
  
   .clip {
     --color: #ff0000;
