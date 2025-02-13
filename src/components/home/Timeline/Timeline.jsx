@@ -25,7 +25,7 @@ const Timeline = () => {
 
       <div className="line" style={{ background: `linear-gradient(to bottom, red ${scrollProgress * 100}%, white 0%)` }}>
         
-        <div className="point" style={{ top: "5%", backgroundColor: scrollProgress >= 0.07 ? "red" : "white" }}></div>
+        <div className="point" style={{ top: "5%", backgroundColor: scrollProgress >= 0.05 ? "red" : "white" }}></div>
         
         <div className="container" style={{ top: "2%" }}>
           <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>

@@ -1,29 +1,45 @@
 import React from "react";
 import "./desc-box.css";
 import Calendar from "./calendar/calendar.jsx";
+import Fireworks from "./Fireworks/Fireworks.jsx";
+im
+
 
 const DescBox = () => {
   return <div className="desc-box">
     <Calendar />
 
     <div className="desc-box-info">
-      <div className="sub-desc-box-info">
-    <p 
+    <Fireworks />
+  
+  <p 
   className="glitch" 
-  data-text="Mark your calendars!" 
-  style={{ fontSize: "50px", fontWeight: "bold", textAlign: "left", marginBottom: "20px", background: "transparent", margin: "20px"}}
+  data-text="🚀Anantya '25 is here !! " 
+  style={{ fontSize: "50px", fontWeight: "bold", textAlign: "left", marginBottom: "4%", background: "transparent", marginLeft: "12%", color: "white" }}
 >
-  Mark your calendars!
+🚀Anantya '25 is here !! 
+
 </p>
 
 <p 
   className="glitch" 
-  data-text="event desc" 
-  style={{ fontSize: "16px", textAlign: "left", background: "transparent", margin: "20px" }}
+  data-text="Mark your Calendars! 🗓️" 
+  style={{ fontSize: "25px", textAlign: "left", background: "transparent", marginInline: "12%"}}
 >
-  event desc
+Mark your Calendars! 🗓️ 
 </p>
-</div>
+
+<p 
+  className="glitch" 
+  data-text="The most awaited event of the year is here! 🤩" 
+  style={{ fontSize: "25px", textAlign: "left", background: "transparent", marginInline: "12%"}}
+>
+The most awaited event of the year is here! 🤩
+</p>
+
+
+
+
     </div>
   </div>;
 

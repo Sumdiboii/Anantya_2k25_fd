@@ -17,6 +17,7 @@
     cursor: pointer;
   }
   
+ 
   .clip {
     --color: #ff0000;
     position: absolute;

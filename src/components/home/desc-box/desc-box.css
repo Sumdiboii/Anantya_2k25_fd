@@ -38,11 +38,14 @@
 /* Styling for the description box next to the calendar */
 .desc-box-info {
     width: 70%; /* Takes remaining space */
-    background: linear-gradient(145deg, #8e1717, #be0000);
-    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.6), 
-                inset -3px -3px 6px rgba(255, 0, 0, 0.2);
-    padding: 5px;
+    background: linear-gradient(145deg, #121212, #2a2a2a);
+    box-shadow: 
+        5px 5px 15px rgba(255, 0, 0, 0.5), 
+        inset 2px 2px 5px rgba(255, 255, 255, 0.1);
     border-radius: 15px;
+    border: 5px solid #990000;  
+    padding: 5px;
+    
     color: white;
     font-size: 16px;
     box-shadow: 3px 3px 10px rgba(255, 0, 0, 0.5);
@@ -50,12 +53,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow: hidden;
 }
 
-.sub-desc-box-info{
-    max-height: 100%;
 
-}
 
 /* Responsive - Hide desc-box-info on small screens */
 @media (max-width: 1024px) {
