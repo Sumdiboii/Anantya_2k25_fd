@@ -1,8 +1,8 @@
 import React from "react";
 import "./desc-box.css";
 import Calendar from "./calendar/calendar.jsx";
-import Fireworks from "./Fireworks/Fireworks.jsx";
-im
+
+
 
 
 const DescBox = () => {
@@ -10,7 +10,7 @@ const DescBox = () => {
     <Calendar />
 
     <div className="desc-box-info">
-    <Fireworks />
+    
   
   <p 
   className="glitch" 
