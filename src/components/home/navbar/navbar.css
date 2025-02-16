@@ -1,4 +1,5 @@
 html body {
+  width: 100%;
   overflow-x: hidden;
 }
 /* General Styles */
@@ -43,7 +44,7 @@ header {
 .navbar {
   width: 100%;
   height: 60px;
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -52,6 +53,7 @@ header {
 }
 
 .navbar .logo a {
+  margin-left: 5%;
   font-size: 2rem;
   font-weight: bold;
   color: #ff0000; /* Red color */
@@ -129,6 +131,7 @@ header {
 
 /* Dropdown Menu */
 .dropdown_menu {
+  margin-right: 5%;
   display: none;
   position: absolute;
   right: 2rem;
@@ -145,7 +148,7 @@ header {
 
 .dropdown_menu.open {
   height: 360px;
-  z-index: 999;
+  
 }
 
 .dropdown_menu li {
@@ -153,14 +156,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 999;
+  
 }
 
 .dropdown_menu .space-button {
   width: 100%;
   display: flex;
   justify-content: center;
-  z-index: 999;
+  
 }
 
 /* Responsive Design */
@@ -168,17 +171,18 @@ header {
   .navbar .links,
   .navbar .space-button {
     display: none;
-    z-index: 999;
+    
   }
 
   .navbar .toggle_btn {
     display: block;
-    z-index: 999;
+    
   }
 
   .dropdown_menu {
     display: block;
-    z-index: 999;
+    margin-right: 5%;
+    
   }
 }
 
@@ -186,12 +190,13 @@ header {
   .dropdown_menu {
     left: 2rem;
     width: unset;
-    z-index: 999;
+    margin-right: 5%;
+    
   }
 
   .dropdown_menu.open {
     height: 27rem;
-    z-index: 999;
+    
   }
 
 }
@@ -595,3 +600,4 @@ header {
     opacity: 0;
   }
 }
+

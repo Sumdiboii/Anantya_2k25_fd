@@ -73,3 +73,37 @@
         max-width: 100%; /* Ensure calendar takes full width */
     }
 }
+
+@media (max-width: 1024px) {
+    .desc-box-info {
+        display: none; /* Hide the extra info box */
+    }
+}
+ 
+
+@media (max-width: 1024px) {
+    .desc-box {
+        display: flex;
+        flex-direction: column; /* Stack items properly */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 400px; /* Adjust to prevent stretching */
+        height: auto; /* Prevent extra height */
+        margin-top: 5%;
+        padding: 10px;
+        margin: 0 auto; /* Center it horizontally */
+    }
+
+    .calendar-container {
+        width: 100%;
+        max-width: 100%; /* Ensure it takes full space */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+

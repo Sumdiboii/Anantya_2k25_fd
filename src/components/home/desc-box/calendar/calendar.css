@@ -20,18 +20,19 @@ body {
   }
   
   .calendar-container {
-    position: relative;
+    position: relative;  /* Ensure positioning context */
+    
     max-width: 27%; /* Adjust to fit properly */
     
-    background: linear-gradient(145deg, #d20808, #c10e0e); /* Dark gradient for SD effect */
+    background: transparent; /* Dark gradient for SD effect */
     border-radius: 15px;
     text-align: center;
   }
   
   .calendar-container header {
     max-width: 100%;
-    border-radius: 1em 1em 0 0;
-    background: #9a1111;
+   
+    background: transparent;
     color: #fff;
     padding: 8px;
     display: flex;
