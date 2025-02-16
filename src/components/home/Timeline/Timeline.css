@@ -240,38 +240,14 @@ header {
   transform: translateY(0);
 }
 
-/* 🔻 Responsive Adjustments for Smaller Screens */
-@media (max-width: 1024px) {
-
- .line{
-  width: 2%;
- }
-
-  .container {
-    width: 100%;
-    height: 120px;
-    margin-left: 40px;
-  }
-
-  .date-box {
-    width: 180px;
-    height: 50px;
-    left: -220px;
-  }
-}
-
 @media (max-width: 768px) {
   .container {
-    width: 250px;
+    width: 260px;
     height: 100px;
     margin-left: 50px;
   }
 
-  .date-box {
-    width: 160px;
-    height: 40px;
-    left: -180px;
-  }
+  
 }
 
 /* ✅ Hide Leftmost & Rightmost Lines on Smaller Screens */
@@ -290,6 +266,27 @@ header {
 
   /* Shift the center line to the left */
   .line {
+    height: 3800px;
+    position: absolute;
+    left: 80px; /* Adjust this value as needed */
+    
+  }
+
+  /* Adjust the containers to align properly */
+  .container {
+    height: fit-content;
+    
+  }
+}
+
+@media (max-width: 1024px) {
+  /* Hide date boxes on the left side */
+  .date-box {
+    display: none;
+  }
+
+  /* Shift the center line to the left */
+  .line {
     position: absolute;
     left: 80px; /* Adjust this value as needed */
   }
@@ -297,6 +294,99 @@ header {
   /* Adjust the containers to align properly */
   .container {
     margin-left: 40px; /* Shift containers accordingly */
+  }
+}
+
+/* 🔹 Fix for iPad Air & iPad Pro (820px - 1024px width) */
+@media (min-width: 820px) and (max-width: 1180px) {
+  /* Hide the date boxes on the left */
+  .date-box {
+    display: none;
+  }
+
+  /* Shift the center line slightly to the left */
+  .line {
+    position: absolute;
+    left: 140px; /* Adjusted for better tablet positioning */
+  }
+
+  .point{
+    background-color: #ff0000;
+    z-index: 999;
+  }
+
+  /* Make the right container bigger to fit the remaining space */
+  .container {
+    height: fit-content;
+    width: calc(100% - 80px); /* Ensures it fills the available space */
+    margin-left: 130px; /* Proper spacing from the line */
+  }
+}
+
+@media (max-width: 768px) {
+  /* Hide the text inside the right container */
+  .event-name-box {
+    display: none;
+  }
+
+  /* Hide the explore button */
+  .explore {
+    display: none;
+  }
+
+  /* Ensure the poster box is responsive and centered */
+  .poster-box {
+    width: 100%; /* Takes full width of the container */
+    max-width: 200px; /* Prevents it from getting too large */
+    margin: auto; /* Centers it */
+  }
+}
+
+@media (max-width: 768px) {
+  /* Poster Box */
+  .poster-box {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: filter 0.3s ease-in-out;
+  }
+
+  /* Poster Image */
+  .poster-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: filter 0.3s ease-in-out;
+  }
+
+  /* Darken image when clicked */
+  .poster-box:active img {
+    filter: brightness(30%);
+  }
+
+  /* Hidden text inside poster-box */
+  .poster-box::after {
+    content: "Event Name"; /* Text appears on click */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px; /* Larger font for better readability */
+    font-weight: bold;
+    color: white; /* Ensure the text is bright and clear */
+    opacity: 0; /* Initially hidden */
+    text-align: center; /* Center text */
+    width: 100%; /* Ensure text stays centered */
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none; /* Prevent text from blocking clicks */
+  }
+
+  /* Show text when clicked */
+  .poster-box:active::after {
+    opacity: 1;
   }
 }
 
