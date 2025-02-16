@@ -242,10 +242,15 @@ header {
 
 /* 🔻 Responsive Adjustments for Smaller Screens */
 @media (max-width: 1024px) {
+
+ .line{
+  width: 2%;
+ }
+
   .container {
     width: 100%;
     height: 120px;
-    margin-left: 80px;
+    margin-left: 40px;
   }
 
   .date-box {
@@ -266,6 +271,32 @@ header {
     width: 160px;
     height: 40px;
     left: -180px;
+  }
+}
+
+/* ✅ Hide Leftmost & Rightmost Lines on Smaller Screens */
+@media (max-width: 768px) {
+  .line:first-child, /* Leftmost line */
+  .line:last-child {  /* Rightmost line */
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Hide date boxes on the left side */
+  .date-box {
+    display: none;
+  }
+
+  /* Shift the center line to the left */
+  .line {
+    position: absolute;
+    left: 80px; /* Adjust this value as needed */
+  }
+
+  /* Adjust the containers to align properly */
+  .container {
+    margin-left: 40px; /* Shift containers accordingly */
   }
 }
 
