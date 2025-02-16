@@ -369,12 +369,13 @@ header {
 
   /* Hidden text inside poster-box */
   .poster-box::after {
-    content: "Event Name"; /* Text appears on click */
+    content: "BEAST GAMES"; /* Text appears on click */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 24px; /* Larger font for better readability */
+    font-size: 40px; /* Larger font for better readability */
+    font-family: glitch;
     font-weight: bold;
     color: white; /* Ensure the text is bright and clear */
     opacity: 0; /* Initially hidden */
@@ -382,6 +383,7 @@ header {
     width: 100%; /* Ensure text stays centered */
     transition: opacity 0.3s ease-in-out;
     pointer-events: none; /* Prevent text from blocking clicks */
+    z-index: 999;
   }
 
   /* Show text when clicked */
