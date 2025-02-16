@@ -38,6 +38,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative; /* Ensures z-index works */
+    z-index: 1; /* Lower than the dropdown menu */
   }
   
   .month {

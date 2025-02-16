@@ -138,17 +138,16 @@ header {
   top: 60px;
   height: 0;
   width: 300px;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.95); /* Darker background for better coverage */
   backdrop-filter: blur(15px);
   border-radius: 10px;
   overflow: hidden;
   transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  z-index: 999;
+  z-index: 1100; /* Increased z-index to stay above other elements */
 }
 
 .dropdown_menu.open {
   height: 360px;
-  
 }
 
 .dropdown_menu li {
@@ -156,8 +155,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  z-index: 1101; /* Ensure text inside is also above */
 }
+
 
 .dropdown_menu .space-button {
   width: 100%;
