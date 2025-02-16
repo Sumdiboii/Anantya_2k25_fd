@@ -243,7 +243,7 @@ header {
 /* 🔻 Responsive Adjustments for Smaller Screens */
 @media (max-width: 1024px) {
   .container {
-    width: 300px;
+    width: 100%;
     height: 120px;
     margin-left: 80px;
   }
@@ -268,3 +268,4 @@ header {
     left: -180px;
   }
 }
+

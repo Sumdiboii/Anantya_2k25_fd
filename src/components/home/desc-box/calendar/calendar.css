@@ -31,8 +31,8 @@ body {
   
   .calendar-container header {
     max-width: 100%;
-   
     background: transparent;
+    margin-right: 15px;
     color: #fff;
     padding: 8px;
     display: flex;

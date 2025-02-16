@@ -90,7 +90,7 @@
         width: 100%;
         max-width: 400px; /* Adjust to prevent stretching */
         height: auto; /* Prevent extra height */
-        margin-top: 5%;
+       
         padding: 10px;
         margin: 0 auto; /* Center it horizontally */
     }
@@ -104,6 +104,17 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .desc-box {
+        margin-top: 8%; /* Increase space */
+    }
+}
+
+@media (max-width: 768px) {
+    .desc-box {
+        margin-top: 10%; /* Even more space for smaller screens */
+    }
+}
 
 
 
