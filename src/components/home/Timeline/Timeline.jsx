@@ -28,12 +28,13 @@ const Timeline = () => {
         <div className="point" style={{ top: "5%", backgroundColor: scrollProgress >= 0.05 ? "red" : "white" }}></div>
         
         <div className="container" style={{ top: "2%" }}>
-          <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
+          <div className="poster-box">
+          <div className="poster-box-1"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
           <div className="event-name-box">
           <p className="glitch" data-text="BEAST GAMES" style={{ fontSize: "27px", fontWeight: "bold" }}>BEAST GAMES</p>
           <p className="glitch" data-text="BY ISTE" style={{ fontSize: "14px" }}>BY ISTE</p>
           <div className="explore"><ExploreButton /></div>
-          
+          </div>
           </div>
         </div>
 
@@ -46,11 +47,13 @@ const Timeline = () => {
         <div className="point" style={{ top: "16%", backgroundColor: scrollProgress >= 0.17 ? "red" : "white" }}></div>
         
         <div className="container" style={{ top: "13%" }}>
-        <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
+        <div className="poster-box">
+        <div className="poster-box-2"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
         <div className="event-name-box">
           <p className="glitch" data-text="BEAST GAMES" style={{ fontSize: "27px", fontWeight: "bold" }}>BEAST GAMES</p>
           <p className="glitch" data-text="BY ISTE" style={{ fontSize: "14px" }}>BY ISTE</p>
           <div className="explore"><ExploreButton /></div>
+          </div>
           </div>
         </div>
 

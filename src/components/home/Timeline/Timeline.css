@@ -242,7 +242,7 @@ header {
 
 @media (max-width: 768px) {
   .container {
-    width: 260px;
+    width: 240px;
     height: 100px;
     margin-left: 50px;
   }
@@ -368,7 +368,7 @@ header {
   }
 
   /* Hidden text inside poster-box */
-  .poster-box::after {
+  .poster-box-1::after {
     content: "BEAST GAMES"; /* Text appears on click */
     position: absolute;
     top: 50%;
@@ -386,8 +386,27 @@ header {
     z-index: 999;
   }
 
+  /* Hidden text inside poster-box */
+  .poster-box-2::after {
+    content: "LOL"; /* Text appears on click */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px; /* Larger font for better readability */
+    font-family: glitch;
+    font-weight: bold;
+    color: white; /* Ensure the text is bright and clear */
+    opacity: 0; /* Initially hidden */
+    text-align: center; /* Center text */
+    width: 100%; /* Ensure text stays centered */
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none; /* Prevent text from blocking clicks */
+    z-index: 999;
+  }
+
   /* Show text when clicked */
-  .poster-box:active::after {
+  .poster-box-1:active::after, .poster-box-2:active::after {
     opacity: 1;
   }
 }
