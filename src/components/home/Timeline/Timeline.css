@@ -278,7 +278,7 @@ header {
 
   /* Shift the center line to the left */
   .line {
-    height: 3800px;
+    height: 9800px;
     position: absolute;
     left: 80px; /* Adjust this value as needed */
     
