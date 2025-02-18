@@ -1,7 +1,7 @@
 import React from "react";
 import "./desc-box.css";
 import Calendar from "./calendar/calendar.jsx";
-
+import DownloadButton from "./download-button/download-button.jsx";
 
 
 
@@ -15,7 +15,7 @@ const DescBox = () => {
   <p 
   className="glitch" 
   data-text="🚀Anantya '25 is here !! " 
-  style={{ fontSize: "50px", fontWeight: "bold", textAlign: "left", marginBottom: "4%", background: "transparent", marginLeft: "12%", color: "white" }}
+  style={{ fontSize: "50px", fontWeight: "bold", textAlign: "left", marginBottom: "4%", background: "transparent", marginLeft: "10%", color: "white" }}
 >
 🚀Anantya '25 is here !! 
 
@@ -24,22 +24,11 @@ const DescBox = () => {
 <p 
   className="glitch" 
   data-text="Mark your Calendars! 🗓️" 
-  style={{ fontSize: "25px", textAlign: "left", background: "transparent", marginInline: "12%"}}
+  style={{ fontSize: "28px", textAlign: "left", background: "transparent", marginInline: "10%"}}
 >
-Mark your Calendars! 🗓️ 
+Mark your Calendars! 🗓️
 </p>
-
-<p 
-  className="glitch" 
-  data-text="The most awaited event of the year is here! 🤩" 
-  style={{ fontSize: "25px", textAlign: "left", background: "transparent", marginInline: "12%"}}
->
-The most awaited event of the year is here! 🤩
-</p>
-
-
-
-
+  <DownloadButton />
     </div>
   </div>;
 
