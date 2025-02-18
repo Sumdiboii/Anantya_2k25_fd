@@ -36,7 +36,7 @@ header {
 .line {
   position: relative;
   width: 7px;
-  height: 5800px;
+  height: 7800px;
   border-radius: 5px;
   transition: background 0.5s ease-out;
 }
