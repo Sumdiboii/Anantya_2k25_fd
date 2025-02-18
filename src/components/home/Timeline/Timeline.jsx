@@ -402,7 +402,7 @@ const Timeline = () => {
 
         <div className="point" style={{ top: "94%", backgroundColor: scrollProgress >= 0.94 ? "red" : "white" }}></div>
         <div className="container" style={{ top: "93%" }}>
-        <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
+        <div className="poster-box"><div className="poster-box-1"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div></div>
         <div className="event-name-box">
           <p className="glitch" data-text="CODIGO" style={{ fontSize: "27px", fontWeight: "bold" }}>CODIGO</p>
           <p className="glitch" data-text="ROUND 2" style={{ fontSize: "14px" }}>ROUND 2</p>

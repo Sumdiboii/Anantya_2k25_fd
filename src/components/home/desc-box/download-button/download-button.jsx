@@ -18,7 +18,7 @@ const DownloadButton = () => {
     className="glitch" 
     data-text="Download the Detailed Timeline now!"
     style={{ 
-    fontSize: "20px", 
+    fontSize: "23px", 
     fontWeight: "bold", 
     textAlign: "left", 
     background: "transparent", 
