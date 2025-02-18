@@ -27,8 +27,8 @@ const Timeline = () => {
         
 
 
-        <div className="point" style={{ top: "4%", backgroundColor: scrollProgress >= 0.04 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "3%" }}>
+        <div className="point" style={{ top: "3.8%", backgroundColor: scrollProgress >= 0.038 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "2.8%" }}>
           <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
           <div className="event-name-box">
           <p className="glitch" data-text="IPL AUCTION" style={{ fontSize: "27px", fontWeight: "bold" }}>IPL AUCTION</p>
@@ -36,7 +36,7 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "3.5%" }}>
+        <div className="date-box" style={{ top: "3.2%" }}>
         <p className="glitch" data-text="06 MARCH 2025">06 MARCH 2025</p>
         <p className="glitch" data-text="5:00 PM - 7:00 PM">5:00 AM - 7:00 PM</p>
         </div>
@@ -44,8 +44,8 @@ const Timeline = () => {
 
 
 
-        <div className="point" style={{ top: "8%", backgroundColor: scrollProgress >= 0.08 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "7%" }}>
+        <div className="point" style={{ top: "7.6%", backgroundColor: scrollProgress >= 0.076 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "6.6%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
         <div className="event-name-box">
           <p className="glitch" data-text="BLIND CODING" style={{ fontSize: "27px", fontWeight: "bold" }}>BLIND CODING</p>
@@ -53,7 +53,7 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "7.5%" }}>
+        <div className="date-box" style={{ top: "7%" }}>
         <p className="glitch" data-text="06 MARCH 2025">06 MARCH 2025</p>
         <p className="glitch" data-text="5:00 PM - 7:00 PM">5:00 AM - 7:00 PM</p>
         </div>
@@ -61,8 +61,8 @@ const Timeline = () => {
 
 
 
-        <div className="point" style={{ top: "12%", backgroundColor: scrollProgress >= 0.12 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "11%" }}>
+        <div className="point" style={{ top: "11.4%", backgroundColor: scrollProgress >= 0.114 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "10.4%" }}>
         <div className="poster-box">
           <img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
           <div className="event-name-box">
@@ -71,15 +71,15 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "11.5%" }}>
+        <div className="date-box" style={{ top: "10.8%" }}>
         <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
         <p className="glitch" data-text="8:00 AM - 10:00 AM">8:00 AM - 10:00 AM</p>
         </div>
 
 
 
-        <div className="point" style={{ top: "16%", backgroundColor: scrollProgress >= 0.16 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "15%" }}>
+        <div className="point" style={{ top: "15.2%", backgroundColor: scrollProgress >= 0.152 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "14.2%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
         <div className="event-name-box">
           <p className="glitch" data-text="CAT" style={{ fontSize: "27px", fontWeight: "bold" }}>CAT</p>
@@ -87,15 +87,15 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "15.5%" }}>
+        <div className="date-box" style={{ top: "14.6%" }}>
         <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
         <p className="glitch" data-text="8:00 AM - 10:00 AM">8:00 AM - 10:00 AM</p>
         </div>
 
 
 
-        <div className="point" style={{ top: "20%", backgroundColor: scrollProgress >= 0.20 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "19%" }}>
+        <div className="point" style={{ top: "19%", backgroundColor: scrollProgress >= 0.19 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "18%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
         <div className="event-name-box">
           <p className="glitch" data-text="CODE RELAY" style={{ fontSize: "27px", fontWeight: "bold" }}>CODE RELAY</p>
@@ -103,15 +103,15 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "19.5%" }}>
+        <div className="date-box" style={{ top: "18.4%" }}>
         <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
         <p className="glitch" data-text="9:00 AM - 11:00 AM">9:00 AM - 11:00 AM</p>
         </div>
 
 
 
-        <div className="point" style={{ top: "24%", backgroundColor: scrollProgress >= 0.24 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "23%" }}>
+        <div className="point" style={{ top: "22.8%", backgroundColor: scrollProgress >= 0.228 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "21.8%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
         <div className="event-name-box">
           <p className="glitch" data-text="IPL AUCTION" style={{ fontSize: "27px", fontWeight: "bold" }}>IPL AUCTION</p>
@@ -119,15 +119,15 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "23.5%" }}>
+        <div className="date-box" style={{ top: "22.2%" }}>
         <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
         <p className="glitch" data-text="8:00 AM - 7:00 PM">9:00 AM - 11:00 AM</p>
         </div>
 
 
 
-        <div className="point" style={{ top: "28%", backgroundColor: scrollProgress >= 0.28 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "27%" }}>
+        <div className="point" style={{ top: "26.6%", backgroundColor: scrollProgress >= 0.266 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "25.6%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
         <div className="event-name-box">
           <p className="glitch" data-text="ACTION REPLAY" style={{ fontSize: "24px", fontWeight: "bold" }}>ACTION REPLAY</p>
@@ -135,7 +135,7 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "27.5%" }}>
+        <div className="date-box" style={{ top: "26%" }}>
         <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
         <p className="glitch" data-text="10:00 AM - 12:00 PM">10:00 AM - 1:00 PM</p>
         </div>
@@ -143,8 +143,8 @@ const Timeline = () => {
 
 
 
-        <div className="point" style={{ top: "32%", backgroundColor: scrollProgress >= 0.32 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "31%" }}> 
+        <div className="point" style={{ top: "30.4%", backgroundColor: scrollProgress >= 0.304 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "29.4%" }}> 
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
         <div className="event-name-box">
           <p className="glitch" data-text="MASTERCHEF UI" style={{ fontSize: "24px", fontWeight: "bold" }}>MASTERCHEF UI</p>
@@ -152,15 +152,15 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "31.5%" }}>
+        <div className="date-box" style={{ top: "29.8%" }}>
         <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
         <p className="glitch" data-text="10:00 AM - 1:00 PM">10:00 AM - 1:00 PM</p>
         </div>
 
 
 
-        <div className="point" style={{ top: "36%", backgroundColor: scrollProgress >= 0.36 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "35%" }}>
+        <div className="point" style={{ top: "34.2%", backgroundColor: scrollProgress >= 0.342 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "33.2%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
         <div className="event-name-box">
           <p className="glitch" data-text="BYTE ME " style={{ fontSize: "27px", fontWeight: "bold" }}>BYTE ME</p>
@@ -168,15 +168,15 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "35.5%" }}>
+        <div className="date-box" style={{ top: "33.6%" }}>
         <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
         <p className="glitch" data-text="11:00 AM - 1:00 PM">11:00 AM - 1:00 PM</p>
         </div>
 
 
 
-        <div className="point" style={{ top: "40%", backgroundColor: scrollProgress >= 0.40 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "39%" }}>
+        <div className="point" style={{ top: "38%", backgroundColor: scrollProgress >= 0.380 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "37%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
         <div className="event-name-box">
           <p className="glitch" data-text="CODING OLYMPICS " style={{ fontSize: "24px", fontWeight: "bold" }}>CODING OLYMPICS</p>
@@ -184,15 +184,15 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "39.5%" }}>
+        <div className="date-box" style={{ top: "37.4%" }}>
         <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
         <p className="glitch" data-text="12:00 PM - 2:00 PM">12:00 PM - 2:00 PM</p>
         </div>
 
 
 
-        <div className="point" style={{ top: "44%", backgroundColor: scrollProgress >= 0.44 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "43%" }}>
+        <div className="point" style={{ top: "41.8%", backgroundColor: scrollProgress >= 0.418 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "40.8%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
         <div className="event-name-box">
           <p className="glitch" data-text="CAT" style={{ fontSize: "27px", fontWeight: "bold" }}>CAT</p>
@@ -200,7 +200,7 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "43.5%" }}>
+        <div className="date-box" style={{ top: "41.2%" }}>
         <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
         <p className="glitch" data-text="2:00 PM - 4:00 PM">2:00 PM - 4:00 PM</p>
         </div>
@@ -208,8 +208,8 @@ const Timeline = () => {
 
 
 
-        <div className="point" style={{ top: "48%", backgroundColor: scrollProgress >= 0.48 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "47%" }}>
+        <div className="point" style={{ top: "45.6%", backgroundColor: scrollProgress >= 0.456 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "44.6%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
         <div className="event-name-box">
           <p className="glitch" data-text="CODE RELAY" style={{ fontSize: "27px", fontWeight: "bold" }}>CODE RELAY</p>
@@ -217,15 +217,15 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "47.5%" }}>
+        <div className="date-box" style={{ top: "45%" }}>
         <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
         <p className="glitch" data-text="2:00 PM - 5:00 PM">2:00 PM - 5:00 PM</p>
         </div>
 
 
 
-        <div className="point" style={{ top: "52%", backgroundColor: scrollProgress >= 0.52 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "51%" }}>
+        <div className="point" style={{ top: "49.4%", backgroundColor: scrollProgress >= 0.494 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "48.4%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
         <div className="event-name-box">
           <p className="glitch" data-text="BYTE ME" style={{ fontSize: "27px", fontWeight: "bold" }}>BYTE ME</p>
@@ -233,15 +233,15 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "51.5%" }}>
+        <div className="date-box" style={{ top: "48.8%" }}>
         <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
         <p className="glitch" data-text="3:00 PM - 7:00 PM">3:00 PM - 7:00 PM</p>
         </div>
 
 
 
-        <div className="point" style={{ top: "56%", backgroundColor: scrollProgress >= 0.56 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "55%" }}>
+        <div className="point" style={{ top: "53.2%", backgroundColor: scrollProgress >= 0.532 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "52.2%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
         <div className="event-name-box">
           <p className="glitch" data-text="CODING OLYMPICS " style={{ fontSize: "23px", fontWeight: "bold" }}>CODING OLYMPICS</p>
@@ -249,14 +249,14 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "55.5%" }}>
+        <div className="date-box" style={{ top: "52.6%" }}>
         <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
         <p className="glitch" data-text="4:00 PM - 6:00 PM">4:00 PM - 6:00 PM</p>
         </div>
 
 
-        <div className="point" style={{ top: "60%", backgroundColor: scrollProgress >= 0.60 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "59%" }}>
+        <div className="point" style={{ top: "57%", backgroundColor: scrollProgress >= 0.570 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "56%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
         <div className="event-name-box">
           <p className="glitch" data-text="CODING OLYMPICS " style={{ fontSize: "23px", fontWeight: "bold" }}>CODING OLYMPICS</p>
@@ -264,15 +264,15 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "59.5%" }}>
+        <div className="date-box" style={{ top: "56.4%" }}>
         <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
         <p className="glitch" data-text="4:00 PM - 6:00 PM">4:00 PM - 6:00 PM</p>
         </div>
 
 
 
-        <div className="point" style={{ top: "64%", backgroundColor: scrollProgress >= 0.64 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "63%" }}>
+        <div className="point" style={{ top: "60.8%", backgroundColor: scrollProgress >= 0.608 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "59.8%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
         <div className="event-name-box">
           <p className="glitch" data-text="CODING OLYMPICS " style={{ fontSize: "23px", fontWeight: "bold" }}>CODING OLYMPICS</p>
@@ -280,15 +280,15 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "63.5%" }}>
+        <div className="date-box" style={{ top: "60.2%" }}>
         <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
         <p className="glitch" data-text="4:00 PM - 6:00 PM">4:00 PM - 6:00 PM</p>
         </div>
 
 
 
-        <div className="point" style={{ top: "68%", backgroundColor: scrollProgress >= 0.68 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "67%" }}>
+        <div className="point" style={{ top: "64.6%", backgroundColor: scrollProgress >= 0.646 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "63.6%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
         <div className="event-name-box">
           <p className="glitch" data-text="CODING OLYMPICS " style={{ fontSize: "23px", fontWeight: "bold" }}>CODING OLYMPICS</p>
@@ -296,15 +296,15 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "67.5%" }}>
+        <div className="date-box" style={{ top: "64%" }}>
         <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
         <p className="glitch" data-text="4:00 PM - 6:00 PM">4:00 PM - 6:00 PM</p>
         </div>
 
 
 
-        <div className="point" style={{ top: "72%", backgroundColor: scrollProgress >= 0.72 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "71%" }}>
+        <div className="point" style={{ top: "68.4%", backgroundColor: scrollProgress >= 0.684 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "67.4%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
         <div className="event-name-box">
           <p className="glitch" data-text="CODING OLYMPICS " style={{ fontSize: "23px", fontWeight: "bold" }}>CODING OLYMPICS</p>
@@ -312,14 +312,30 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "71.5%" }}>
+        <div className="date-box" style={{ top: "67.8%" }}>
         <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
         <p className="glitch" data-text="4:00 PM - 6:00 PM">4:00 PM - 6:00 PM</p>
         </div>
 
 
 
-        <div className="point" style={{ top: "76%", backgroundColor: scrollProgress >= 0.76 ? "red" : "white" }}></div>
+        <div className="point" style={{ top: "72.2%", backgroundColor: scrollProgress >= 0.722 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "71.2%" }}>
+        <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
+        <div className="event-name-box">
+          <p className="glitch" data-text="CODING OLYMPICS " style={{ fontSize: "23px", fontWeight: "bold" }}>CODING OLYMPICS</p>
+          <p className="glitch" data-text="ROUND 1" style={{ fontSize: "14px" }}>ROUND 1</p>
+          <div className="explore"><ExploreButton /></div>
+          </div>
+        </div>
+        <div className="date-box" style={{ top: "71.6%" }}>
+        <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
+        <p className="glitch" data-text="4:00 PM - 6:00 PM">4:00 PM - 6:00 PM</p>
+        </div>
+
+
+
+        <div className="point" style={{ top: "76%", backgroundColor: scrollProgress >= 0.760 ? "red" : "white" }}></div>
         <div className="container" style={{ top: "75%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
         <div className="event-name-box">
@@ -328,15 +344,15 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "75.5%" }}>
+        <div className="date-box" style={{ top: "75.4%" }}>
         <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
         <p className="glitch" data-text="4:00 PM - 6:00 PM">4:00 PM - 6:00 PM</p>
         </div>
 
 
 
-        <div className="point" style={{ top: "80%", backgroundColor: scrollProgress >= 0.80 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "79%" }}>
+        <div className="point" style={{ top: "79.8%", backgroundColor: scrollProgress >= 0.798 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "78.8%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
         <div className="event-name-box">
           <p className="glitch" data-text="CODING OLYMPICS " style={{ fontSize: "23px", fontWeight: "bold" }}>CODING OLYMPICS</p>
@@ -344,15 +360,15 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "79.5%" }}>
+        <div className="date-box" style={{ top: "79.2%" }}>
         <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
         <p className="glitch" data-text="4:00 PM - 6:00 PM">4:00 PM - 6:00 PM</p>
         </div>
 
 
 
-        <div className="point" style={{ top: "84%", backgroundColor: scrollProgress >= 0.84 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "83%" }}>
+        <div className="point" style={{ top: "83.6%", backgroundColor: scrollProgress >= 0.836 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "82.6%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
         <div className="event-name-box">
           <p className="glitch" data-text="CODING OLYMPICS " style={{ fontSize: "23px", fontWeight: "bold" }}>CODING OLYMPICS</p>
@@ -360,15 +376,15 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "83.5%" }}>
+        <div className="date-box" style={{ top: "83%" }}>
         <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
         <p className="glitch" data-text="4:00 PM - 6:00 PM">4:00 PM - 6:00 PM</p>
         </div>
 
 
 
-        <div className="point" style={{ top: "88%", backgroundColor: scrollProgress >= 0.88 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "87%" }}>
+        <div className="point" style={{ top: "87.4%", backgroundColor: scrollProgress >= 0.874 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "86.4%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
         <div className="event-name-box">
           <p className="glitch" data-text="CODING OLYMPICS " style={{ fontSize: "23px", fontWeight: "bold" }}>CODING OLYMPICS</p>
@@ -376,15 +392,15 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "87.5%" }}>
+        <div className="date-box" style={{ top: "86.8%" }}>
         <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
         <p className="glitch" data-text="4:00 PM - 6:00 PM">4:00 PM - 6:00 PM</p>
         </div>
 
 
 
-        <div className="point" style={{ top: "92%", backgroundColor: scrollProgress >= 0.92 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "91%" }}>
+        <div className="point" style={{ top: "91.2%", backgroundColor: scrollProgress >= 0.912 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "90.2%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
         <div className="event-name-box">
           <p className="glitch" data-text="CODING OLYMPICS " style={{ fontSize: "23px", fontWeight: "bold" }}>CODING OLYMPICS</p>
@@ -392,15 +408,15 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "91.5%" }}>
+        <div className="date-box" style={{ top: "90.6%" }}>
         <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
         <p className="glitch" data-text="4:00 PM - 6:00 PM">4:00 PM - 6:00 PM</p>
         </div>
 
 
 
-        <div className="point" style={{ top: "96%", backgroundColor: scrollProgress >= 0.96 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "95%" }}>
+        <div className="point" style={{ top: "95%", backgroundColor: scrollProgress >= 0.950 ? "red" : "white" }}></div>
+        <div className="container" style={{ top: "94%" }}>
         <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
         <div className="event-name-box">
           <p className="glitch" data-text="CODING OLYMPICS " style={{ fontSize: "23px", fontWeight: "bold" }}>CODING OLYMPICS</p>
@@ -408,23 +424,7 @@ const Timeline = () => {
           <div className="explore"><ExploreButton /></div>
           </div>
         </div>
-        <div className="date-box" style={{ top: "95.5%" }}>
-        <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
-        <p className="glitch" data-text="4:00 PM - 6:00 PM">4:00 PM - 6:00 PM</p>
-        </div>
-
-
-
-        <div className="point" style={{ top: "99%", backgroundColor: scrollProgress >= 0.99 ? "red" : "white" }}></div>
-        <div className="container" style={{ top: "98%" }}>
-        <div className="poster-box"><img src="src/assets/demo_pic.jpg" alt="Event Poster" /></div>
-        <div className="event-name-box">
-          <p className="glitch" data-text="CODING OLYMPICS " style={{ fontSize: "23px", fontWeight: "bold" }}>CODING OLYMPICS</p>
-          <p className="glitch" data-text="ROUND 1" style={{ fontSize: "14px" }}>ROUND 1</p>
-          <div className="explore"><ExploreButton /></div>
-          </div>
-        </div>
-        <div className="date-box" style={{ top: "98.5%" }}>
+        <div className="date-box" style={{ top: "94.4%" }}>
         <p className="glitch" data-text="07 MARCH 2025">07 MARCH 2025</p>
         <p className="glitch" data-text="4:00 PM - 6:00 PM">4:00 PM - 6:00 PM</p>
         </div>
