@@ -35,9 +35,9 @@ const Calendar = () => {
             <td>3</td>
             <td>4</td>
             <td>5</td>
-            <td>6</td>
-            <td>7</td>
-            <td>8</td>
+            <td className="current-day">6</td>
+            <td className="current-day">7</td>
+            <td className="current-day">8</td>
             <td>9</td>
           </tr>
           <tr>
@@ -47,7 +47,7 @@ const Calendar = () => {
             <td>13</td>
             <td>14</td>
             <td>15</td>
-            <td className="current-day">16</td>
+            <td>16</td>
           </tr>
           <tr>
             <td>17</td>

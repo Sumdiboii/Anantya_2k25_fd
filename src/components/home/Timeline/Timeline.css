@@ -36,7 +36,7 @@ header {
 .line {
   position: relative;
   width: 7px;
-  height: 2800px;
+  height: 5800px;
   border-radius: 5px;
   transition: background 0.5s ease-out;
 }
@@ -261,8 +261,20 @@ header {
 @media (max-width: 768px) {
   /* Hide date boxes on the left side */
   .date-box {
-    display: none;
+    position: absolute; /* Ensure it positions properly */
+    left: calc(80px + 50px); /* Move it to the right of the line */
+    width: auto;
+    padding: 10px 15px;
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent background for visibility */
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    border: 2px solid red; /* Red border for emphasis */
+    border-radius: 8px;
+    z-index: 1000; /* Ensure it appears above other elements */
   }
+
 
   /* Shift the center line to the left */
   .line {
