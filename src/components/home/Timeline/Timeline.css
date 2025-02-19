@@ -364,6 +364,7 @@ header {
     align-items: center;
     justify-content: center;
     transition: filter 0.3s ease-in-out;
+    
   }
 
   /* Poster Image */
@@ -380,13 +381,21 @@ header {
   }
 
   /* Hidden text inside poster-box */
-  .poster-box-1::after {
-    content: "BEAST GAMES"; /* Text appears on click */
+  
+  .poster-box-1:active::after, .poster-box-2:active::after, .poster-box-3:active::after, 
+  .poster-box-4:active::after, .poster-box-5:active::after, .poster-box-6:active::after,
+  .poster-box-7:active::after, .poster-box-8:active::after, .poster-box-9:active::after,
+  .poster-box-10:active::after, .poster-box-11:active::after, .poster-box-12:active::after,
+  .poster-box-13:active::after, .poster-box-14:active::after, .poster-box-15:active::after,
+  .poster-box-16:active::after, .poster-box-17:active::after, .poster-box-18:active::after,
+  .poster-box-19:active::after, .poster-box-20:active::after, .poster-box-21:active::after,
+  .poster-box-22:active::after, .poster-box-23:active::after, .poster-box-24:active::after,
+  .poster-box-25:active::after, .poster-box-26:active::after{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 40px; /* Larger font for better readability */
+    font-size: 23px; /* Larger font for better readability */
     font-family: glitch;
     font-weight: bold;
     color: white; /* Ensure the text is bright and clear */
@@ -398,27 +407,175 @@ header {
     z-index: 999;
   }
 
-  /* Hidden text inside poster-box */
-  .poster-box-2::after {
-    content: "LOL"; /* Text appears on click */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 40px; /* Larger font for better readability */
-    font-family: glitch;
-    font-weight: bold;
-    color: white; /* Ensure the text is bright and clear */
-    opacity: 0; /* Initially hidden */
-    text-align: center; /* Center text */
-    width: 100%; /* Ensure text stays centered */
-    transition: opacity 0.3s ease-in-out;
-    pointer-events: none; /* Prevent text from blocking clicks */
-    z-index: 999;
+  .poster-box-1:active::after {
+    content: "IPL AUCTION \A [ROUND 2]\A \A 6 MARCH 2025\A 5 PM TO 7 PM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+}
+
+
+  .poster-box-2:active::after{
+    content: "IPL AUCTION \A [ROUND 3]\A \A 7 MARCH 2025\A 8 AM TO 7 PM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+
+  .poster-box-3:active::after{
+    content: "BLIND CODING \A [ROUND 2]\A \A 6 MARCH 2025\A 5 PM TO 7 PM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+
+  .poster-box-4:active::after{
+    content: "BLIND CODING \A [ROUND 3]\A \A 7 MARCH 2025\A 8 AM TO 10 AM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+
+  .poster-box-5:active::after{
+    content: "CAT \A [ROUND 1]\A \A 7 MARCH 2025\A 8 AM TO 10 AM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+
+  .poster-box-6:active::after{
+    content: "CAT \A [ROUND 2]\A \A 7 MARCH 2025\A 2 PM TO 4 PM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+
+  .poster-box-7:active::after{
+    content: "CAT \A [ROUND 3]\A \A 8 MARCH 2025\A 10 AM TO 12 PM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+
+  .poster-box-8:active::after{
+    content: "CODE RELAY \A [ROUND 1]\A \A 7 MARCH 2025\A 9 AM TO 11 AM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+
+  .poster-box-9:active::after{
+    content: "CODE RELAY \A [ROUND 2]\A \A 7 MARCH 2025\A 2 PM TO 5 PM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+
+  .poster-box-10:active::after{
+    content: "CODE RELAY \A [ROUND 3]\A \A 8 MARCH 2025\A 10 AM TO 12 PM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+
+  .poster-box-11:active::after{
+    content: "ACTION REPLAY \A [ROUND 2]\A \A 7 MARCH 2025\A 10 AM TO 1 PM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+
+  .poster-box-12:active::after{
+    content: "ACTION REPLAY \A [ROUND 3,4]\A \A 8 MARCH 2025\A 10 AM TO 2 PM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+
+  .poster-box-13:active::after{
+    content: "MASTERCHEF UI \A [ROUND 1]\A \A 7 MARCH 2025\A 10 AM TO 1 PM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+
+  .poster-box-14:active::after{
+    content: "MASTERCHEF UI \A [ROUND 2]\A \A 7 MARCH 2025\A 4 PM TO 7 PM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+
+  .poster-box-15:active::after{
+    content: "MASTERCHEF UI \A [ROUND 3]\A \A 6 MARCH 2025\A 12 PM TO 2 PM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+
+  .poster-box-16:active::after{
+    content: "BYTE ME \A [ROUND 1]\A \A 7 MARCH 2025\A 11 AM TO 1 PM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+  
+  .poster-box-17:active::after{
+    content: "BYTE ME \A [ROUND 2]\A \A 7 MARCH 2025\A 3 PM TO 7 PM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+
+  .poster-box-18:active::after{
+    content: "CODING OLYMPICS \A [ROUND 1]\A \A 7 MARCH 2025\A 2 PM TO 4 PM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+
+  .poster-box-19:active::after{
+    content: "CODING OLYMPICS \A [ROUND 2]\A \A 7 MARCH 2025\A 4 PM TO 6 PM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+
+  .poster-box-20:active::after{
+    content: "CODING OLYMPICS \A [ROUND 3]\A \A 8 MARCH 2025\A 8 AM TO 10 AM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+
+  .poster-box-21:active::after{
+    content: "INNOVATE X \A [ROUND 1]\A \A 8 MARCH 2025\A 9 AM TO 1 PM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+
+  .poster-box-22:active::after{
+    content: "SHE SOLVES \A [ROUND 1]\A \A 8 MARCH 2025\A 8 AM TO 2 PM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+
+  .poster-box-23:active::after{
+    content: "SHERLOCK \A [ROUND 2,3]\A \A 8 MARCH 2025\A 8 AM TO 1 PM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+
+  .poster-box-24:active::after{
+    content: "CODIGO \A [ROUND 2]\A \A 8 MARCH 2025\A 10 AM TO 12 PM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+
+  .poster-box-25:active::after{
+    content: "CODIGO \A [ROUND 3]\A \A 8 MARCH 2025\A 12 PM TO 2 PM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
+  }
+
+  .poster-box-26:active::after{
+    content: "BEAST GAMES \A [ROUND 1]\A \A 8 MARCH 2025\A 8 AM TO 2 PM"; /* Two blank lines */
+    white-space: pre-line;  /* Enables line breaks */
+    display: block;  /* Ensures proper rendering */
   }
 
   /* Show text when clicked */
-  .poster-box-1:active::after, .poster-box-2:active::after {
+  .poster-box-1:active::after, .poster-box-2:active::after, .poster-box-3:active::after, 
+  .poster-box-4:active::after, .poster-box-5:active::after, .poster-box-6:active::after,
+  .poster-box-7:active::after, .poster-box-8:active::after, .poster-box-9:active::after,
+  .poster-box-10:active::after, .poster-box-11:active::after, .poster-box-12:active::after,
+  .poster-box-13:active::after, .poster-box-14:active::after, .poster-box-15:active::after,
+  .poster-box-16:active::after, .poster-box-17:active::after, .poster-box-18:active::after,
+  .poster-box-19:active::after, .poster-box-20:active::after, .poster-box-21:active::after,
+  .poster-box-22:active::after, .poster-box-23:active::after, .poster-box-24:active::after,
+  .poster-box-25:active::after, .poster-box-26:active::after
+
+   {
     opacity: 1;
   }
 }
