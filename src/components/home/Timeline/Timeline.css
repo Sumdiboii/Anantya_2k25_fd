@@ -311,29 +311,35 @@ header {
 
 /* 🔹 Fix for iPad Air & iPad Pro (820px - 1024px width) */
 @media (min-width: 820px) and (max-width: 1180px) {
-  /* Hide the date boxes on the left */
+  /* Position the date box to the left of the container */
   .date-box {
-    display: none;
+    display: block; /* Ensure it is visible */
+    position: absolute;
+    left: 100px; /* Align to the left */
+    width: 250px; /* Adjust width as needed */
+    text-align: center;
+    height: fit-content;
   }
 
   /* Shift the center line slightly to the left */
   .line {
     position: absolute;
-    left: 140px; /* Adjusted for better tablet positioning */
+    margin-left: 140px; /* Adjust for better positioning */
   }
 
-  .point{
+  .point {
     background-color: #ff0000;
     z-index: 999;
   }
 
-  /* Make the right container bigger to fit the remaining space */
+  /* Increase container width and move it right */
   .container {
     height: fit-content;
-    width: calc(100% - 80px); /* Ensures it fills the available space */
-    margin-left: 130px; /* Proper spacing from the line */
+    width: fit-content; /* Adjust width dynamically */
+    margin-left: 450px; /* Proper spacing from the line */
   }
 }
+
 
 @media (max-width: 768px) {
   /* Hide the text inside the right container */
@@ -363,7 +369,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: filter 0.3s ease-in-out;
+    transition: filter 0.2s ease-in-out;
     
   }
 
@@ -372,7 +378,7 @@ header {
     width: 100%;
     height: auto;
     display: block;
-    transition: filter 0.3s ease-in-out;
+    transition: filter 0.2s ease-in-out;
   }
 
   /* Darken image when clicked */
